@@ -14,7 +14,7 @@
   "main": "public/js/lib/angularjs-crypto.js"
   ,
   "scripts": {
-	"postinstall": "./node_modules/bower/bin/bower install",
+	"postinstall": "node.exe /node_modules/bower/bin/bower install",
     "test": "./node_modules/.bin/karma start karma/karma.conf-$JOB.js --single-run"
   },
   "devDependencies": {
